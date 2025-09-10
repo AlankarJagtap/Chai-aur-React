@@ -16,8 +16,8 @@ function App() {
           Tailwind test
         </h1>
       </button>
-      <Card usernames="Alankar" />
-      <Card usernames="Jagtap"/>
+      <Card usernames="Alankar" price="14$" />
+      <Card usernames="Jagtap" price="16$" />
 
       
 

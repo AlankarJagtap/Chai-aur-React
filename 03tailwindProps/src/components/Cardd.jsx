@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Cardd({usernames}) {
+function Cardd(props) {
   return (
     <>
       <div id ="01"
@@ -23,8 +23,8 @@ function Cardd({usernames}) {
         </div>
         <div className="flex flex-col  rounded-b-xl py-4 ">
           <div className="flex justify-between">
-            <h1 className="font-RubikBold ">Bored {usernames}  </h1>
-            <h1 className="font-bold font-RubikBold">Price</h1>
+            <h1 className="font-RubikBold ">Bored {props.usernames}  </h1>
+            <h1 className="font-bold font-RubikBold">Price: {props.price}</h1>
           </div>
           <div className="flex  justify-between font-mono">
             <p>#345</p>
