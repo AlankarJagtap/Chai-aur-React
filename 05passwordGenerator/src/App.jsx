@@ -39,9 +39,9 @@ function App() {
 
   return (
     <>
-      <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 my-8 text-orange-500 bg-gray-700">
-        <h1 className="text-white text-center ">Password Generator</h1>
-        <div className="flex shadow rounded overflow-hidden mb-4 py-5 ">
+      <div className="w-full max-w-md mx-auto shadow-md rounded-lg px-4 py-3 my-8 text-emerald-500 bg-gray-700">
+        <h1 className="text-white text-center py-2 "><i><b>PASSWORD GENERATOR !</b></i> </h1>
+        <div className="flex shadow rounded-full overflow-hidden mb-4 py-5 px-5 " style={{backgroundColor:"MistyRose"}}>
           <input 
           type="text" 
           value={password}
@@ -52,7 +52,7 @@ function App() {
           />
           <button 
           onClick={copyPasswordToClipboard}
-          className="outline-none bg-blue-700 text-white px-3 py-0.5 shrink-0">Copy</button>
+          className="px-6 py-2 bg-blue-500 text-white font-bold  shadow-lg transform transition duration-300 hover:scale-110 hover:bg-blue-600 hover:shadow-xl">Copy</button>
         </div>
         <div className="flex text-sm gap-x-2 py-3 ">
           <div className="flex items-center gap-x-1">
